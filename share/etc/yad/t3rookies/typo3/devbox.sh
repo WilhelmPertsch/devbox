@@ -9,7 +9,7 @@ export TYPO3_SITENAME='t3rookies - DEVBOX System'
 # YAD specific settings
 
 export YAD_DEPLOY=simple.sh
-export YAD_RELEASE_FOLDER=/var/www/latest
+export YAD_RELEASE_FOLDER=/var/www/t3rookies.local
 export YAD_INSTALL_SCRIPT='setup/install.sh'
 
 # package containing at least an install.sh install script

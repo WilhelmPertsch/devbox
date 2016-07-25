@@ -137,7 +137,7 @@ apache:
             servername: www.t3rookies.local
             serveraliases:
                 - t3rookies.local
-            docroot: /var/www/t3rookies.local/web
+            docroot: /var/www/t3rookies.local/web/htdocs
             port: '80'
             setenvif:
                 - 'Authorization "(.*)" HTTP_AUTHORIZATION=$1'
@@ -151,7 +151,7 @@ apache:
             ssl_cipher: ''
             directories:
                 avd_x1l1q7216p21:
-                    path: /var/www/t3rookies.local/web
+                    path: /var/www/t3rookies.local/web/htdocs
                     options:
                         - Indexes
                         - FollowSymlinks
@@ -388,4 +388,3 @@ solr:
     settings:
         version: 4.10.2
         port: '8082'
-
