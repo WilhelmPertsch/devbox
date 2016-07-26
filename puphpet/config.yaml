@@ -176,22 +176,16 @@ letsencrypt:
 php:
     install: '1'
     settings:
-        version: '70'
+        version: '55'
     modules:
         php:
             - cli
             - intl
             - mcrypt
-            - mysql
             - mbstring
             - fpm
             - curl
             - gd
-            - xml
-            - zip
-            - soap
-            - redis
-            - bcmath
         pear: {  }
         pecl: {  }
     ini:
