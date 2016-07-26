@@ -14,3 +14,5 @@ Development Environment for the AOE t3rookies 2016 Workshop
 4. Start the YAD installer
 
   sudo yad_t3rookies_typo3_devbox
+
+Good luck
