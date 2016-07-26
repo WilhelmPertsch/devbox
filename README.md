@@ -9,7 +9,7 @@ Development Environment for the AOE t3rookies 2016 Workshop
 
 3. Edit the download credentials in the file:
 
-  vim etc/yad/t3rookies/typo3/devbox.sh
+  sudo vim /etc/yad/t3rookies/typo3/devbox.sh
 
 4. Start the YAD installer
 
