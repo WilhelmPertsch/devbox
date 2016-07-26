@@ -2,7 +2,7 @@
 export DB_HOST='localhost'
 export DB_USER='root'
 export DB_PASS='root'
-export DB_NAME='t3rookies_dev'
+export DB_NAME='devbox'
 export TYPO3_SITENAME='t3rookies - DEVBOX System'
 
 #######################
